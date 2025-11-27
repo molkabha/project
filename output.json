@@ -1,0 +1,136 @@
+{
+    "certificate_id": "BTD-1677-0364",
+    "version": "0.1.5",
+    "verified_at": "2025-11-27T15:45:44Z",
+    "dataset": {
+        "dataset_hash": "677487e3e9fc10655ea7fe579de45731b1599740779d2376d25f654b04249fd9",
+        "manifest_hash": "3e926af8b3d5f13c8a1e0f9ff0dd05ae75e51854ef4c051a844fe14fe49da07b",
+        "total_files": 4,
+        "dataset_size_gb": 0.001,
+        "mime_breakdown": {
+            "image/png": 2,
+            "text/plain": 1,
+            "application/pdf": 1
+        },
+        "verification_scope": "Certificate applies ONLY to the dataset hashed at issuance. Any modification invalidates certification."
+    },
+    "overall_risk": {
+        "score": 91,
+        "risk_band": "LOW",
+        "coverage_level": "Full Cover",
+        "premium_adjustment": "+0\u20135%"
+    },
+    "claim_triggers": [
+        "Copyright/IP infringement",
+        "Dataset contamination by protected content",
+        "Provenance/licensing failure",
+        "Regulatory or safety breach",
+        "Unauthorized or scraped data sources"
+    ],
+    "commercial": {
+        "certificate_fee": null,
+        "commission_model": "Blue Tick Data\u2122 operates on a partner commission basis (details upon request)."
+    },
+    "files": [
+        {
+            "filename": "1.png",
+            "sha256": "ad8daeadc0eb3dfe01374707c296172f0516d5732cd953f8764538b8fd03225a",
+            "mime_type": "image/png",
+            "size_kb": 149.55,
+            "metadata": {
+                "mime_type": "image/png",
+                "size_kb": 149.55,
+                "size_bytes": 153143,
+                "extension": ".png",
+                "created_at": 1764257817.8839216,
+                "modified_at": 1763221775.3600848
+            },
+            "api_checks": {
+                "similarity_score": 0.32,
+                "contamination_risk": "MEDIUM",
+                "license_mismatch": false,
+                "safety_risk": "LOW",
+                "metadata_completeness": 0.77
+            },
+            "score": 72,
+            "risk_band": "MEDIUM",
+            "coverage_level": "Limited Cover",
+            "premium_adjustment": "+12\u201320%"
+        },
+        {
+            "filename": "2.png",
+            "sha256": "89b404815c436dc71db0d03b35a653291d45ec0281f28de6c441cedd0b1190b8",
+            "mime_type": "image/png",
+            "size_kb": 145.06,
+            "metadata": {
+                "mime_type": "image/png",
+                "size_kb": 145.06,
+                "size_bytes": 148545,
+                "extension": ".png",
+                "created_at": 1764257817.8899934,
+                "modified_at": 1763221794.6354854
+            },
+            "api_checks": {
+                "similarity_score": 0.14,
+                "contamination_risk": "LOW",
+                "license_mismatch": false,
+                "safety_risk": "LOW",
+                "metadata_completeness": 0.99
+            },
+            "score": 99,
+            "risk_band": "LOW",
+            "coverage_level": "Full Cover",
+            "premium_adjustment": "+0\u20135%"
+        },
+        {
+            "filename": "file1.txt",
+            "sha256": "e5eb4ccbc5848814e4bf7a35c260630b1359367d2e39b7489108ef72595f6377",
+            "mime_type": "text/plain",
+            "size_kb": 2.48,
+            "metadata": {
+                "mime_type": "text/plain",
+                "size_kb": 2.48,
+                "size_bytes": 2540,
+                "extension": ".txt",
+                "created_at": 1764257817.8960693,
+                "modified_at": 1763480048.31743
+            },
+            "api_checks": {
+                "similarity_score": 0.08,
+                "contamination_risk": "LOW",
+                "license_mismatch": false,
+                "safety_risk": "LOW",
+                "metadata_completeness": 0.92
+            },
+            "score": 98,
+            "risk_band": "LOW",
+            "coverage_level": "Full Cover",
+            "premium_adjustment": "+0\u20135%"
+        },
+        {
+            "filename": "file2.pdf",
+            "sha256": "4d52ed0a466161f9cc53fa29ec7f865fe89814c94fa960af7db2c9eae72d038d",
+            "mime_type": "application/pdf",
+            "size_kb": 341.89,
+            "metadata": {
+                "mime_type": "application/pdf",
+                "size_kb": 341.89,
+                "size_bytes": 350091,
+                "extension": ".pdf",
+                "created_at": 1764257817.9000602,
+                "modified_at": 1763998914.0800388
+            },
+            "api_checks": {
+                "similarity_score": 0.09,
+                "contamination_risk": "LOW",
+                "license_mismatch": false,
+                "safety_risk": "LOW",
+                "metadata_completeness": 0.93
+            },
+            "score": 98,
+            "risk_band": "LOW",
+            "coverage_level": "Full Cover",
+            "premium_adjustment": "+0\u20135%"
+        }
+    ]
+}

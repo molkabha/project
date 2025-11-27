@@ -1,0 +1,19 @@
+{
+	"project_name": "Blue Tick Data - Dataset Verification",
+	"version": "0.1.5",
+
+	"paths": {
+		"input_folder": "demo_input",
+		"output_json": "output.json",
+		"output_pdf": "certificate.pdf"
+	},
+
+	"scoring": {
+		"high_risk_penalty": 0.4
+	},
+
+	"pdf": {
+		"brand_color": "#143A5E",
+		"qr_base_url": "https://bluetickdata.ai/cert/"
+	}
+}

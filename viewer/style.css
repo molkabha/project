@@ -1,0 +1,129 @@
+/* viewer/style.css – Blue Tick Data™ v0.1.5 */
+
+body {
+	font-family: Arial, sans-serif;
+	background: #F5F7FA;
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+header {
+	background: #143A5E;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+header .title {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+header .subtitle {
+	font-size: 14px;
+	opacity: 0.8;
+	margin-top: 5px;
+}
+
+/* UPLOAD PANEL */
+.upload-section {
+	margin: 30px;
+	padding: 20px;
+	background: white;
+	border-left: 5px solid #143A5E;
+}
+
+.upload-section h2 {
+	color: #143A5E;
+}
+
+/* SUMMARY PANEL */
+#summaryPanel {
+	margin: 30px;
+	padding: 20px;
+	background: white;
+	border-left: 5px solid #143A5E;
+}
+
+#summaryPanel h2 {
+	color: #143A5E;
+	margin-bottom: 20px;
+}
+
+.summary-grid {
+	display: flex;
+	gap: 40px;
+	margin-top: 20px;
+	padding: 20px;
+	background: #f9f9f9;
+	border-radius: 8px;
+}
+
+.left-col, .right-col {
+	flex: 1;
+}
+
+.left-col div, .right-col div {
+	margin-bottom: 12px;
+	line-height: 1.6;
+}
+
+h3 {
+	color: #143A5E;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+/* Risk pill */
+.risk-pill {
+	display: inline-block;
+	padding: 6px 14px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	color: white;
+}
+
+/* Download button */
+.downloadBtn {
+	background: #143A5E;
+	padding: 10px 20px;
+	border: none;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.downloadBtn:hover {
+	background: #0F2D46;
+}
+
+/* JSON Viewer */
+#jsonViewer {
+	margin: 30px;
+	background: #ffffff;
+	border-left: 5px solid #143A5E;
+	padding: 20px;
+}
+
+#jsonViewer h2 {
+	color: #143A5E;
+	margin-bottom: 15px;
+}
+
+pre {
+	background: #efefef;
+	padding: 15px;
+	border-radius: 5px;
+	overflow-x: auto;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+/* Hidden until JSON loaded */
+.hidden {
+	display: none;
+}

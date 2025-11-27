@@ -1,0 +1,4 @@
+# requirements.txt – Blue Tick Data™ 0.1.5
+# Python dependencies for the verification system
+
+reportlab>=4.0.0
